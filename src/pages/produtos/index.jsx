@@ -7,7 +7,7 @@ export default function Produtos() {
 
     useEffect(() => {
       async function getProdutos() {
-        const response = await instance.get('/produtos',)
+        const response = await instance.get('/produtos')
         setProdutos(response.data)
       }
       
